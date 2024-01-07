@@ -84,7 +84,7 @@ header #img
 #section1
 {
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 0 70px;
 }
 
 #section1 h2
@@ -111,4 +111,65 @@ header #img
     width: 130px;
     height: 130px;
     margin: 0 auto;
+}
+
+#section2
+{
+    background-color: #e5e7eb;
+    padding: 95px 280px;
+    color: #1f2937;
+}
+
+#section2 blockquote #quoteText
+{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#section2 blockquote #author
+{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: end;
+    margin-top: 10px;
+}
+
+#section3 
+{
+    margin: 70px 185px;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section3 strong
+{
+    font-weight: 500;
+}
+
+#section3 p
+{
+    font-weight: 200;
+}
+
+#section3 .signUp
+{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 8px 35px;
+    font-weight: 500;
+    color: #e5e7eb;
+}
+
+footer
+{
+    padding: 25px 0;
+    text-align: center;
 }
